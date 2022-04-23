@@ -1,0 +1,148 @@
+body{
+    background-color:#b1afaf;
+    font-family: 'Licorice', cursive;
+font-family: 'Playfair Display', serif;
+font-size: 14px;
+
+}
+
+.fondo{
+    position: relative;
+    margin:20px auto;
+    width: 700px; 
+    height: 800px;
+    background-color: #b1afaf;
+    z-index: 0;
+}
+
+.head{
+    background-color: aqua;
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    left: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: 80px auto;
+    text-align: center;
+    z-index: 10;
+
+    }
+    
+.card{
+    background-color: #415059;
+    position: absolute;
+    border-radius: 20px;
+    width: 370px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    text-align: center;
+
+    
+}    
+
+.footer{
+    position: absolute;
+    background-color:#c74385;
+    width: 370px;
+    height: 70px;
+    z-index: 30;
+    bottom: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.imagenmia{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    margin:auto;
+    left:0;
+    right: 0;
+    bottom: 500px;
+    top: 0;
+    border-radius: 50%;
+    border-width: 15px;
+    border-style:solid;
+    border-color: #c74385;
+    z-index: 50;
+}
+
+.texto{
+    position: relative;
+    z-index: 60;
+    height: 250px;
+    width: 300px;
+    background-color: #415059;
+    left: 0;
+    right: 0;
+    top: 110px;
+    right: 0;
+    margin: auto;
+}
+.svg1{
+    right:45px;
+    top: 95px;
+    z-index: 80;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #c74385;
+    border-radius: 50%;
+}
+.svg2{
+    top: 95px;
+    right: 20px;
+    z-index: 80;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #c74385;
+    border-radius: 50%;
+}
+
+.svg3{
+    top: 95px;
+    z-index: 80;
+    left: 10px;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #c74385;
+    border-radius: 50%;
+}
+
+.svg4{
+    top: 95px;
+    z-index: 80;
+    left: 40px;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #c74385;
+    border-radius: 50%;
+}
+
+h2, h3, h4{
+    color: white;
+}
+svg{
+    fill: white;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+h1{
+    color:#c74385;
+}
